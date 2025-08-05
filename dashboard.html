@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome Dashboard</title>
+  <form action="index.html" method="post"></form>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #667eea, #764ba2);
+      font-family: 'Segoe UI', sans-serif;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .dashboard {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 40px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 0 100px rgba(0,0,0,0.3);
+    }
+
+    .dashboard h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .dashboard p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .dashboard a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: white;
+      color: #667eea;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 2s;
+    }
+
+    .dashboard a:hover {
+      background-color:green;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="dashboard">
+    <h1>Welcome, User!</h1>
+    <p>You have successfully logged in.</p>
+    <a href="index.html">Logout</a>
+  </div>
+
+</body>
+</html>
